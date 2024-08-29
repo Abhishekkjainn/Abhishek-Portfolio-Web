@@ -433,22 +433,22 @@ export default function Homepage() {
             <div className="sno">5.</div>
             <div className="projectcardtags">
               <div className="cardtag">App Dev</div>
-              <div className="cardtag">Social Media</div>
+              <div className="cardtag">Flight Booking</div>
             </div>
           </div>
           <div className="projectcardcontent">
             <div className="projectname">
-              <div className="circleprodcard"></div> Vision
+              <div className="circleprodcard"></div> Tripster
             </div>
             <div className="projectdesc">
-              Created a visually inspiring social media platform where ideas
-              come to life, allowing users to discover, save, and share their
-              passions.
+              Developed a flight booking app with real-time data and live
+              ticketing, integrating Tripjack Air API for seamless booking and
+              secure transactions.
             </div>
           </div>
           <Link
             className="projectvisitbutton linkstyle"
-            to={'/projects/vision'}
+            to={'/projects/tripster'}
           >
             <div className="projectvisitbutton">
               <div className="visitbutton">View Project</div>
@@ -658,21 +658,24 @@ export default function Homepage() {
                 effortlessly in vellore. Reducing the standard Fares by 30% in
                 Vellore. Providing Employement to More than 20 Autodrivers.
               </div>
-              <div className="educationsession">Founder | CTO</div>
+              <div className="educationsession">
+                Founder | CTO | Web Developer
+              </div>
             </div>
           </div>
           <div className="educationcard">
             <div className="educationimage img4"></div>
             <div className="educationdetails">
-              <div className="educationhead">Solero Ceramics</div>
-              <div className="educationcollege">Jun 2024 - July 2024</div>
+              <div className="educationhead">Tripster</div>
+              <div className="educationcollege">Jun 2024 - Aug 2024</div>
               <div className="educationcollege">
-                Developed the Offical Page for the Creamic Tiles Manufacturing
-                Company Based in Gujarat, India. Showcasing Their Products
-                ,Catalogues and Manufacturing Facilitie Present in Gujarat.
+                Built a complete flight booking app with real-time data and live
+                ticketing. Integrated Tripjack Air API for flight availability
+                and booking, developed a responsive UI, and ensured secure
+                transactions and efficient data handling.
               </div>
               <div className="educationsession">
-                Full Stack Website Developer
+                Cross Platform App Developer
               </div>
             </div>
           </div>

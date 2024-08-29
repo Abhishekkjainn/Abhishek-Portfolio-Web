@@ -957,7 +957,7 @@ body{
     background-size: cover;
 }
 .img4{
-    background: url('/solero.jpg');
+    background: url('/tripsterlogo.png');
     background-position: center;
     background-size: cover;
 }
@@ -1238,6 +1238,11 @@ body{
 }
 .newsmancard{
     background: url('/newsmanmockup.png');
+    background-position: center;
+    background-size: cover;
+}
+.tripstercard{
+    background: url('/tripsterimages/tripsterphonemock.png');
     background-position: center;
     background-size: cover;
 }
@@ -2388,7 +2393,7 @@ body{
         background-size: cover;
     }
     .img4{
-        background: url('/solero.jpg');
+        background: url('/tripsterlogo.png');
         background-position: center;
         background-size: cover;
     }

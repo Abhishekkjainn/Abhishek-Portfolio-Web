@@ -14,6 +14,7 @@ import Reorder from './projects/reorder';
 import TMDB from './projects/tmdb';
 import Vision from './projects/vision';
 import Hoodeye from './projects/hoodeye';
+import Tripster from './projects/tripster';
 import Karigari from './projects/karigari';
 import Automate from './projects/automate';
 import Appdev from './services/appdeveloper';
@@ -42,6 +43,7 @@ export default function App() {
           <Route path="/projects/reorder" element={<Reorder />} />
           <Route path="/projects/TMDB" element={<TMDB />} />
           <Route path="/projects/vision" element={<Vision />} />
+          <Route path="/projects/tripster" element={<Tripster />} />
           <Route path="/projects/hoodeye" element={<Hoodeye />} />
           <Route path="/projects/karigari" element={<Karigari />} />
           <Route path="/projects/automate" element={<Automate />} />

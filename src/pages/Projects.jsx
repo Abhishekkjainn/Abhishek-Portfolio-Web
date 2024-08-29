@@ -51,11 +51,37 @@ export default function ProjectsPage() {
           </Link>
 
           <Link
+            to={'/projects/tripster'}
+            className="projectpagecard tripstercard linkstyle"
+          >
+            <div className="topprojectpagecard">
+              <div className="sno">2.</div>
+              <div className="projectpagetags">
+                <div className="skilltag">App Dev</div>
+                <div className="skilltag">Flight Booking App</div>
+              </div>
+            </div>
+            <div className="middleprojectpagecard"></div>
+            <div className="bottomprojectpagecard">
+              <div className="projectcardbottomhead">
+                <div className="cardcircle"></div>
+                <div className="projectcardtag">Tripster</div>
+              </div>
+              <div className="projectcardbottomcontent">
+                Built a complete flight booking app with real-time data and live
+                ticketing. Integrated Tripjack Air API for flight availability
+                and booking, developed a responsive UI, and ensured secure
+                transactions and efficient data handling.
+              </div>
+            </div>
+          </Link>
+
+          <Link
             to={'/projects/solero'}
             className="projectpagecard solerocard linkstyle"
           >
             <div className="topprojectpagecard">
-              <div className="sno">2.</div>
+              <div className="sno">3.</div>
               <div className="projectpagetags">
                 <div className="skilltag">Web Dev</div>
                 <div className="skilltag">Commerical Website</div>
@@ -81,7 +107,7 @@ export default function ProjectsPage() {
             className="projectpagecard newsmancard linkstyle"
           >
             <div className="topprojectpagecard">
-              <div className="sno">3.</div>
+              <div className="sno">4.</div>
               <div className="projectpagetags">
                 <div className="skilltag">App Dev</div>
                 <div className="skilltag">Daily News App</div>
@@ -105,7 +131,7 @@ export default function ProjectsPage() {
             className="projectpagecard spenndcard linkstyle"
           >
             <div className="topprojectpagecard">
-              <div className="sno">4.</div>
+              <div className="sno">5.</div>
               <div className="projectpagetags">
                 <div className="skilltag">App Dev</div>
                 <div className="skilltag">Finance Management</div>
@@ -129,7 +155,7 @@ export default function ProjectsPage() {
             className="projectpagecard reordercard linkstyle"
           >
             <div className="topprojectpagecard">
-              <div className="sno">5.</div>
+              <div className="sno">6.</div>
               <div className="projectpagetags">
                 <div className="skilltag">Web Dev</div>
                 <div className="skilltag">Inventory Management</div>
@@ -155,7 +181,7 @@ export default function ProjectsPage() {
             className="projectpagecard tmdbcard linkstyle"
           >
             <div className="topprojectpagecard">
-              <div className="sno">6.</div>
+              <div className="sno">7.</div>
               <div className="projectpagetags">
                 <div className="skilltag">App Dev</div>
                 <div className="skilltag">Movie Database</div>
@@ -179,7 +205,7 @@ export default function ProjectsPage() {
             className="linkstyle projectpagecard visioncard"
           >
             <div className="topprojectpagecard">
-              <div className="sno">7.</div>
+              <div className="sno">8.</div>
               <div className="projectpagetags">
                 <div className="skilltag">Web Dev</div>
                 <div className="skilltag">Social Media</div>
@@ -205,7 +231,7 @@ export default function ProjectsPage() {
             className="projectpagecard hoodeyecard linkstyle"
           >
             <div className="topprojectpagecard">
-              <div className="sno">8.</div>
+              <div className="sno">9.</div>
               <div className="projectpagetags">
                 <div className="skilltag">App Dev</div>
                 <div className="skilltag">Machine Learning</div>
@@ -231,7 +257,7 @@ export default function ProjectsPage() {
             className="projectpagecard karigaricard linkstyle"
           >
             <div className="topprojectpagecard">
-              <div className="sno">9.</div>
+              <div className="sno">10.</div>
               <div className="projectpagetags">
                 <div className="skilltag">Web Dev</div>
                 <div className="skilltag">E-Commerce</div>
