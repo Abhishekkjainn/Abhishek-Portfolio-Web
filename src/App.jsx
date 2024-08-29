@@ -96,7 +96,7 @@ export default function App() {
         </div>
         <div className="resumelink">
           <a
-            href="/Abhishekjain.pdf"
+            href="/AbhishekJain(Resume).pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="linkstyle"
