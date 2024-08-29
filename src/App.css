@@ -1448,6 +1448,7 @@ body{
     font-weight: 400;
     z-index: 500;
     font-family: 'Bebas Neue';
+    display: none;
 }
 .centercircle{
     width: 35px;
@@ -1948,6 +1949,7 @@ body{
     font-weight: 100;
     z-index: 500;
     font-family: 'Bebas Neue';
+    display: none;
     }
     .centercircle{
         width: 20px;
