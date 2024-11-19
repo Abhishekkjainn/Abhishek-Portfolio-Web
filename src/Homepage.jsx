@@ -518,6 +518,7 @@ export default function Homepage() {
             <SkillCard imgsrc={'reactjs.png'} skilltag={'React JS'} />
             <SkillCard imgsrc={'NEXTJS.png'} skilltag={'Next JS'} />
             <SkillCard imgsrc={'nodejs.png'} skilltag={'Node JS'} />
+            <SkillCard imgsrc={'expressjs.png'} skilltag={'Express JS'} />
             <SkillCard imgsrc={'javascript.png'} skilltag={'Javascript'} />
             <SkillCard imgsrc={'typescript.png'} skilltag={'Typescript'} />
             <SkillCard imgsrc={'java.png'} skilltag={'Java'} />
