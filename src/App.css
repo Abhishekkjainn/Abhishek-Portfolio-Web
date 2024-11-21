@@ -754,7 +754,9 @@ body{
 }
 .skillsectiondiv{
     width: 100%;
-    height: 80vh;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -763,7 +765,7 @@ body{
     width: 80%;
     height: auto;
     padding: 20px;
-    margin-top: 40px;
+    margin-top:40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2278,9 +2280,9 @@ body{
     }
     .skillsectiondiv{
         width: 100%;
-        height: 80vh;
-        padding-top: 170px;
-        padding-bottom: 170px;
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
