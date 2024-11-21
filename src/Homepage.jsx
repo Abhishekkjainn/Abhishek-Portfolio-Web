@@ -504,13 +504,11 @@ export default function Homepage() {
           loop={0}
           direction="right"
         >
-          <FaStarOfLife /> &nbsp; Techstack &nbsp;
-          <FaStarOfLife /> &nbsp; Techstack &nbsp;
-          <FaStarOfLife /> &nbsp; Techstack &nbsp;
-          <FaStarOfLife /> &nbsp; Techstack &nbsp;
-          <FaStarOfLife /> &nbsp; Techstack &nbsp;
-          <FaStarOfLife /> &nbsp; Techstack &nbsp;
-          <FaStarOfLife /> &nbsp; Techstack &nbsp;
+          {[...Array(8)].map((_, i) => (
+            <React.Fragment key={i}>
+              <FaStarOfLife /> &nbsp; Techstack &nbsp;
+            </React.Fragment>
+          ))}
         </Marquee>
 
         <div className="skillsectiondiv">
