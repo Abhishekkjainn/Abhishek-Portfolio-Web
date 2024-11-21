@@ -1079,9 +1079,6 @@ body{
     height: auto;
     background-color: rgb(12, 12, 12);
 }
-.aboutmarq{
-    
-}
 .marqimg{
     margin-right: 100px;
     margin-left: 100px;
@@ -2832,7 +2829,6 @@ body{
     content: 'View Live Page'; /* Add the content on hover */
     display: flex; /* Show the overlay on hover */
 }
-.projcard{}
 
 
 
