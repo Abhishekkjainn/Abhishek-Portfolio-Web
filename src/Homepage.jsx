@@ -128,7 +128,7 @@ export default function Homepage() {
           </Marquee>
         </div>
         <div className="imagepage1">
-          <img src="abhishek.png" alt="abhishek" className="abhishekimage" />
+          <img src="/abhishek.png" alt="abhishek" className="abhishekimage" />
         </div>
       </div>
     );
@@ -162,22 +162,25 @@ export default function Homepage() {
 
         <div className="aboutmesection">
           <div className="aboutmecontent">
-            I’m a skilled <span className="blue"> web developer </span> and{' '}
-            <span className="blue"> app developer </span>with nearly three years
-            of experience crafting innovative and functional digital solutions.
-            My expertise lies in building user-friendly{' '}
-            <span className="blue"> websites</span> and{' '}
-            <span className="blue"> applications</span> that deliver seamless
-            experiences. <br />
+            Hi, I’m a <span className="blue">Full Stack Web Developer</span>,
+            <span className="blue">API Specialist</span>, and{' '}
+            <span className="blue">Cross-Platform App Developer 📱</span>. With
+            nearly three years of experience, I’ve built{' '}
+            <span className="blue">websites 🌍</span> and{' '}
+            <span className="blue">mobile apps 📲</span> that deliver seamless,
+            high-performance user experiences.
             <br />
-            Throughout my career, I have successfully completed numerous{' '}
-            <span className="blue"> freelancing projects</span>, demonstrating a
-            keen ability to adapt and excel in dynamic environments. I bring a
-            blend of technical proficiency and creative problem-solving to every
-            project, ensuring{' '}
-            <span className="blue"> high-quality results</span> that meet client
-            needs and exceed expectations.
+            <br />
+            When I’m not coding, I’m contributing to{' '}
+            <span className="blue">open-source projects 🚀</span>, automating
+            tasks, and championing <span className="blue">dark mode</span> as
+            the true UI theme. 🌙
+            <br />
+            <br />
+            Let’s collaborate on innovative solutions that blend logic,
+            creativity, and efficiency.
           </div>
+
           <Link to={'/about'} className="linkstyle">
             <div className="resumebutton">
               <div className="circlebutton"></div>
@@ -210,7 +213,7 @@ export default function Homepage() {
         <div className="skillsection">
           <div className="skilldiv skilldiv1">
             <div className="topskilldiv">
-              <div className="skilltag">Web Dev</div>
+              <div className="skilltag">FullStack Web Dev</div>
               <div className="skilltag">Available</div>
             </div>
             <div className="middleskilldiv">
@@ -482,6 +485,34 @@ export default function Homepage() {
             </div>
           </Link>
         </div>
+        <div className="projectdiv projectdiv7">
+          <div className="projectcardhead">
+            <div className="sno">7.</div>
+            <div className="projectcardtags">
+              <div className="cardtag">Web Dev</div>
+              <div className="cardtag">Online Billing</div>
+              <div className="cardtag">Inventory Management</div>
+            </div>
+          </div>
+          <div className="projectcardcontent">
+            <div className="projectname">
+              <div className="circleprodcard"></div> SuperBill
+            </div>
+            <div className="projectdesc">
+              Superbill streamlines billing by allowing customers to access
+              bills via phone number verification, while vendors can generate
+              bills and manage inventory efficiently.
+            </div>
+          </div>
+          <Link
+            className="projectvisitbutton linkstyle"
+            to={'/projects/superbill'}
+          >
+            <div className="projectvisitbutton">
+              <div className="visitbutton">View Project</div>
+            </div>
+          </Link>
+        </div>
         <div className="allprojectsbutton">
           <Link to={'/projects'} className="linkstyle">
             <div className="resumebutton">
@@ -526,6 +557,7 @@ export default function Homepage() {
             <SkillCard imgsrc={'github.png'} skilltag={'Github'} />
             <SkillCard imgsrc={'flutter.png'} skilltag={'Flutter'} />
             <SkillCard imgsrc={'firebase.png'} skilltag={'Firebase'} />
+            <SkillCard imgsrc={'docker.png'} skilltag={'Docker'} />
           </div>
         </div>
       </div>
@@ -653,9 +685,11 @@ export default function Homepage() {
               <div className="educationhead">Automate Vellore</div>
               <div className="educationcollege">April 2023 - Present</div>
               <div className="educationcollege">
-                Developed a platform from which Autorickshaws can be booked
-                effortlessly in vellore. Reducing the standard Fares by 30% in
-                Vellore. Providing Employement to More than 20 Autodrivers.
+                As the founder, I developed a seamless autorickshaw booking
+                platform in Vellore, reducing standard fares by 30% and
+                enhancing affordability. This initiative has provided stable
+                employment to over 20 drivers, while making ride bookings
+                effortless and efficient for the community
               </div>
               <div className="educationsession">
                 Founder | CTO | Web Developer

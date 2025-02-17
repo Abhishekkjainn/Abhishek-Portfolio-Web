@@ -17,10 +17,12 @@ export default function AboutPage() {
             <div className="projectheadcontent">About Me</div>
           </div>
           <div className="projectsubhead">
-            I was born and raised in a small town of Central India but I'm
-            currently living in Vellore, Pursuing my BTech Degree in Electronics
-            and Communication Engineering from Vellore Institute of Technology ,
-            Vellore.
+            I was born and raised in a small town in Central India, and now I’m
+            living in Vellore, where I’m pursuing a BTech in Electronics and
+            Communication Engineering at VIT. Alongside my studies, I’m the
+            founder of Automate Vellore, a platform for seamless autorickshaw
+            booking. I’m also a full-stack web and app developer, API creator,
+            and open-source contributor.
           </div>
         </div>
       </div>
@@ -31,14 +33,14 @@ export default function AboutPage() {
             <div className="whatidoheadcontent">What I Do?</div>
           </div>
           <div className="whatidocontent">
-            "I'm a seasoned web and cross-platform app developer with three
+            "I’m a seasoned web and cross-platform app developer with three
             years of hands-on experience, currently advancing my skills through
-            a B.Tech degree in ECE Engineering from VIT Vellore. My passion for
-            storytelling and human-centered design fuels my exploration of
-            innovative strategies for brands to engage with their audiences
-            effectively. Continuously inspired and driven by curiosity, I thrive
-            on pushing creative boundaries and delivering exceptional user
-            experiences."
+            a B.Tech in ECE Engineering from VIT Vellore. My passion for
+            storytelling, human-centered design, and backend development fuels
+            my exploration of innovative strategies for brands to engage
+            effectively with their audiences. With expertise in API creation and
+            database management, I thrive on pushing creative boundaries and
+            delivering exceptional user experiences."
           </div>
         </div>
       </div>
@@ -114,6 +116,7 @@ export default function AboutPage() {
           <img src="github.png" alt="" className="skillimage marqimg" />
           <img src="flutter.png" alt="" className="skillimage marqimg" />
           <img src="firebase.png" alt="" className="skillimage marqimg" />
+          <img src="docker.png" alt="" className="skillimage marqimg" />
           <img src="reactjs.png" alt="" className="skillimage marqimg" />
           <img src="NEXTJS.png" alt="" className="skillimage marqimg" />
           <img src="nodejs.png.png" alt="" className="skillimage marqimg" />
@@ -126,6 +129,7 @@ export default function AboutPage() {
           <img src="github.png" alt="" className="skillimage marqimg" />
           <img src="flutter.png" alt="" className="skillimage marqimg" />
           <img src="firebase.png" alt="" className="skillimage marqimg" />
+          <img src="docker.png" alt="" className="skillimage marqimg" />
           <img src="reactjs.png" alt="" className="skillimage marqimg" />
           <img src="NEXTJS.png" alt="" className="skillimage marqimg" />
           <img src="nodejs.png.png" alt="" className="skillimage marqimg" />
@@ -138,6 +142,7 @@ export default function AboutPage() {
           <img src="github.png" alt="" className="skillimage marqimg" />
           <img src="flutter.png" alt="" className="skillimage marqimg" />
           <img src="firebase.png" alt="" className="skillimage marqimg" />
+          <img src="docker.png" alt="" className="skillimage marqimg" />
         </Marquee>
       </div>
     </div>
