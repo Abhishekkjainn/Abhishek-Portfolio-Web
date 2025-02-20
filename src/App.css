@@ -357,7 +357,7 @@ body{
     top: 20%;
     left: 40%;
     z-index: 10;
-    filter: grayscale(1) brightness(0.7);
+    filter: grayscale(1) brightness(0.5) blur(0.2px);
 }
 
   
@@ -366,7 +366,7 @@ body{
 /*Page2*/
 .page2{
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: black;
 }
 .aboutmemarquee{
@@ -376,11 +376,12 @@ body{
     border-bottom: 1px solid white;
     color: white;
     font-family: "Bricolage Grotesque";
-    font-size: 45px;
+    font-size: 36px;
+    
 }
 .aboutmesection{
     width: 90%;
-    height: 75vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -620,33 +621,38 @@ body{
 }
 .projectdiv1{
     z-index: 1;
-    top: 100px;
+    top: 80px;
     background-color: red;
 }
 .projectdiv2{
     z-index: 2;
-    top: 120px;
+    top: 100px;
     background-color: rgb(23, 23, 23);
 }
 .projectdiv3{
     z-index: 3;
-    top: 140px;
+    top: 120px;
     background-color: royalblue;
 }
 .projectdiv4{
     z-index: 4;
-    top: 160px;
-    background-color: darkorchid;
+    top: 140px;
+    background-color: rgb(8, 8, 128);
 }
 .projectdiv5{
     z-index: 5;
-    top: 180px;
-    background-color: greenyellow;
+    top: 160px;
+    background-color: #32CD32;
 }
 .projectdiv6{
     z-index: 6;
     top: 180px;
-    background-color: rgb(94, 94, 0);
+    background-color: #0b3b25;
+}
+.projectdiv7{
+    z-index: 7;
+    top: 200px;
+    background-color: #2C3E50;
 }
 
 .projectcardhead{
@@ -1170,6 +1176,12 @@ body{
     background-position: center;
     background-size: cover;
 }
+.superbillcard{
+    background: url('/superbillmockup.png');
+    background-position: center;
+    background-size: cover;
+}
+
 .topprojectpagecard{
     width: 90%;
     height: 20%;

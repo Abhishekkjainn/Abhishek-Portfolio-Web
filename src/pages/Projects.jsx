@@ -51,6 +51,31 @@ export default function ProjectsPage() {
           </Link>
 
           <Link
+            to={'/projects/superbill'}
+            className="projectpagecard livitcard superbillcard linkstyle"
+          >
+            <div className="topprojectpagecard">
+              <div className="sno">2.</div>
+              <div className="projectpagetags">
+                <div className="skilltag">Web Dev</div>
+                <div className="skilltag">Inventory Management</div>
+              </div>
+            </div>
+            <div className="middleprojectpagecard"></div>
+            <div className="bottomprojectpagecard">
+              <div className="projectcardbottomhead">
+                <div className="cardcircle"></div>
+                <div className="projectcardtag">SuperBill</div>
+              </div>
+              <div className="projectcardbottomcontent">
+                Superbill streamlines billing by allowing customers to access
+                bills via phone number verification, while vendors can generate
+                bills and manage inventory efficiently.
+              </div>
+            </div>
+          </Link>
+
+          <Link
             to={'/projects/tripster'}
             className="projectpagecard tripstercard linkstyle"
           >
