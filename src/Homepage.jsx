@@ -43,6 +43,7 @@ export default function Homepage() {
       <Page6 />
       <Page7 />
       <Page8 />
+      <Page10 />
       <Page9 />
     </>
   );
@@ -725,6 +726,102 @@ export default function Homepage() {
               </div>
               <div className="educationsession">
                 Cross Platform App Developer
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  function Page10() {
+    return (
+      <div className="page8">
+        <Marquee
+          className="aboutmemarquee"
+          speed={40}
+          autoFill={true}
+          loop={0}
+          direction="left"
+        >
+          <FaStarOfLife /> &nbsp; Achievements &nbsp;
+          <FaStarOfLife /> &nbsp; Achievements &nbsp;
+          <FaStarOfLife /> &nbsp; Achievements &nbsp;
+          <FaStarOfLife /> &nbsp; Achievements &nbsp;
+          <FaStarOfLife /> &nbsp; Achievements &nbsp;
+          <FaStarOfLife /> &nbsp; Achievements &nbsp;
+          <FaStarOfLife /> &nbsp; Achievements &nbsp;
+        </Marquee>
+        <div className="educationsection">
+          <div className="educationcard">
+            <div className="educationimage imgach1"></div>
+            <div className="educationdetails">
+              <div className="educationhead">
+                App Dev Hackathon - First Position
+              </div>
+              <div className="educationcollege">
+                Organized by MeitY, Govt. of India at VIT Vellore
+              </div>
+              <div className="educationcollege">
+                Secured 1st position in a prestigious hackathon organized by
+                MeitY, Govt. of India. Developed a full-fledged Event Management
+                System that streamlined event registrations and operations. The
+                award was presented by the CEO of MeitY, with Institute
+                Innovation Council, VIT Vellore as the co-organizer.
+              </div>
+              <div className="educationsession"></div>
+            </div>
+          </div>
+
+          <div className="educationcard">
+            <div className="educationimage imgach2"></div>
+            <div className="educationdetails">
+              <div className="educationhead">Hackoff V4.0 – 2nd Position</div>
+              <div className="educationcollege">
+                Pan-India Hackathon | IET, VIT Vellore
+              </div>
+              <div className="educationcollege">
+                Secured 2nd place in the prestigious Pan-India Hackathon,
+                Hackoff V4.0, organized by the Institute of Engineering and
+                Technology, VIT Vellore. Developed a full-stack Education
+                Companion Platform for mentorship, enabling seamless
+                mentor-student connections, personalized learning, and guidance.
+              </div>
+              <div className="educationsession">
+                <a
+                  href="https://drive.google.com/file/d/1x7gnARA8iABgnyGjnnU9Mnf5CJ7T2ZmA/view"
+                  target="_blank"
+                  className="certlink"
+                >
+                  <img src="/link.png" alt="Link" className="linkimg" />{' '}
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="educationcard">
+            <div className="educationimage imgach3"></div>
+            <div className="educationdetails">
+              <div className="educationhead">Relay Coding – 1st Position</div>
+              <div className="educationcollege">
+                Institute of Engineering and Technology, VIT Vellore
+              </div>
+              <div className="educationcollege">
+                Secured 1st place in the Relay Coding competition organized by
+                the Institute of Engineering and Technology, VIT Vellore.
+                Developed a **Student Community Platform** where students can
+                create **study groups**, collaborate, and organize meetups for
+                group study sessions, enhancing peer learning and academic
+                engagement.
+              </div>
+              <div className="educationsession">
+                <a
+                  href="https://drive.google.com/file/d/1tRSRfv_73Z0H1a2FatCbzYDD2nlod3jf/view"
+                  target="_blank"
+                  className="certlink"
+                >
+                  <img src="/link.png" alt="Link" className="linkimg" />{' '}
+                </a>
               </div>
             </div>
           </div>
