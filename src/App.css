@@ -1176,6 +1176,11 @@ body{
     background-position: center;
     background-size: cover;
 }
+.automatecard{
+    background: url('/automateimages/automateindmock.png');
+    background-position: center;
+    background-size: cover;
+}
 .superbillcard{
     background: url('/superbillmockup.png');
     background-position: center;
