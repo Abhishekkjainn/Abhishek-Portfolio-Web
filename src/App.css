@@ -960,7 +960,7 @@ body{
     background-size: cover;
 }
 .img3{
-    background: url('/automate.png');
+    background: url('/automatelogoimg.png');
     background-position: center;
     background-size: cover;
 }
@@ -2425,7 +2425,7 @@ body{
     }
 
     .img3{
-        background: url('/automate.png');
+        background: url('/automatelogoimg.png');
         background-position: center;
         background-size: cover;
     }
