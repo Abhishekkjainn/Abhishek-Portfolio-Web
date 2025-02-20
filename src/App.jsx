@@ -175,7 +175,7 @@ export default function App() {
               </div>
             </Link>
             <a
-              href="/Abhishekjain.pdf"
+              href="https://drive.google.com/file/d/1ju64X1Aa_GCQa1gSuplIVZViPT5KufXm/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="respheaderlink"
