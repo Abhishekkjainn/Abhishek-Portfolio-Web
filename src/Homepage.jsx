@@ -129,7 +129,11 @@ export default function Homepage() {
           </Marquee>
         </div>
         <div className="imagepage1">
-          <img src="/abhishek.png" alt="abhishek" className="abhishekimage" />
+          <img
+            src="/abhishekjainn.png"
+            alt="abhishek"
+            className="abhishekimage"
+          />
         </div>
       </div>
     );
