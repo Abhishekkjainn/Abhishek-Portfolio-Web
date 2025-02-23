@@ -357,7 +357,7 @@ body{
     top: 20%;
     left: 40%;
     z-index: 10;
-    filter: grayscale(1) brightness(0.4) blur(0.4px);
+    filter: grayscale(1) brightness(0.4) blur(0px);
 }
 
   
@@ -1252,6 +1252,11 @@ body{
     background-position: center;
     background-size: cover;
 }
+.blinkcard{
+    background: url('/blinkmockup.png');
+    background-position: center;
+    background-size: cover;
+}
 .newsmancard{
     background: url('/newsmanmockup.png');
     background-position: center;
@@ -1897,7 +1902,7 @@ body{
         top: 40%;
         left: 10%;
         z-index: 10;
-        filter: grayscale(1) brightness(0.4) blur(0.4px);
+        filter: grayscale(1) brightness(0.4) blur(0px);
     }
     .aboutmemarquee{
         padding-top: 10px;

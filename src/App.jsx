@@ -21,6 +21,7 @@ import Appdev from './services/appdeveloper';
 import Uiux from './services/uiuxdesigner';
 import Webdeveloper from './services/webdeveloper';
 import Superbill from './projects/superbill';
+import Blink from './projects/blink';
 
 export default function App() {
   const [isOpen, setIsOpen] = useState(false); // State variable for menu visibility
@@ -49,6 +50,7 @@ export default function App() {
           <Route path="/projects/karigari" element={<Karigari />} />
           <Route path="/projects/automate" element={<Automate />} />
           <Route path="/projects/superbill" element={<Superbill />} />
+          <Route path="/projects/blink" element={<Blink />} />
           <Route path="/services/appdeveloper" element={<Appdev />} />
           <Route path="/services/uiuxdesigner" element={<Uiux />} />
           <Route path="/services/webdeveloper" element={<Webdeveloper />} />

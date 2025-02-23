@@ -129,11 +129,7 @@ export default function Homepage() {
           </Marquee>
         </div>
         <div className="imagepage1">
-          <img
-            src="/abhishekjainn.png"
-            alt="abhishek"
-            className="abhishekimage"
-          />
+          <img src="/abhishek.png" alt="abhishek" className="abhishekimage" />
         </div>
       </div>
     );
@@ -360,24 +356,21 @@ export default function Homepage() {
           <div className="projectcardhead">
             <div className="sno">2.</div>
             <div className="projectcardtags">
-              <div className="cardtag">Web Dev</div>
-              <div className="cardtag">Commerical Website</div>
+              <div className="cardtag">Backend Dev</div>
+              <div className="cardtag">URL Management</div>
             </div>
           </div>
           <div className="projectcardcontent">
             <div className="projectname">
-              <div className="circleprodcard"></div> Solero
+              <div className="circleprodcard"></div> Blink
             </div>
             <div className="projectdesc">
-              Crafted a stunning commercial website for Solero Ceramics,
-              showcasing their premium, elegant, and durable ceramic tiles to
-              transform any space with style
+              Blink is a URL shortener and analytics platform that lets users
+              create short, shareable links and track their performance with an
+              intuitive dashboard for URL management and click analytics.
             </div>
           </div>
-          <Link
-            className="projectvisitbutton linkstyle"
-            to={'/projects/solero'}
-          >
+          <Link className="projectvisitbutton linkstyle" to={'/projects/blink'}>
             <div className="projectvisitbutton">
               <div className="visitbutton">View Project</div>
             </div>
